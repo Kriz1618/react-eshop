@@ -1,6 +1,18 @@
-# Getting Started with Create React App
+# eShop basic e-commerce with react
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Requirements
+  ```
+  npm@8.12.1
+  node@v18.4.0
+  ```
+
+## Clone
+Clone this project with the command `git clone https://github.com/Kriz1618/react-eshop`
+
+## Install
+cd react-eshop
+npm i
+npm start
 
 ## Available Scripts
 
@@ -39,32 +51,25 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+### Deployment to firebase hosting
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* Install firebase tools `npm install -g firebase-tools`
+* Login in `firebase login`
+* Run `firebase init` to initiate
+* Select a specific project or create a new one
+* Select the option `Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys`
+* Select the folder with the compile code e.x `build`
+* Run `npm run build` to compile the code
+* Finally run `firebase deploy`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Visualize app on [Firebase Hosting](https://e-shop-1422.web.app/)
 
-### Code Splitting
+### Stack
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+[<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyBgVGQ2bi6XyUGFV95s2ItFx_1MJUP-Jl-w&usqp=CAU" width="80"/>](https://developer.mozilla.org/es/docs/Web/JavaScript)
 
-### Analyzing the Bundle Size
+[<img src="https://brandslogos.com/wp-content/uploads/images/react-logo-vector.svg" width="80"/>](https://es.reactjs.org/docs/getting-started.html)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+[<img src="https://mui.com/static/logo.png" width="80"/>](https://mui.com/)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[<img src="https://seeklogo.com/images/F/firebase-logo-402F407EE0-seeklogo.com.png" width="80"/>](https://firebase.google.com/)
